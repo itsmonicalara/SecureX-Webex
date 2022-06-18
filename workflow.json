@@ -7,19 +7,6 @@
     "base_type": "workflow",
     "variables": [
       {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "Y2lzY29zcGFyazovL3VybjpURUFNOmV1LWNlbnRyYWwtMV9rL1RFQU0vMmE3NmNjYzAtZWVkYi0xMWVjLTkzM2UtMGQwOTFmOTBmNGJj",
-          "scope": "local",
-          "name": "Team id",
-          "type": "datatype.string",
-          "is_required": false,
-          "is_invisible": false
-        },
-        "unique_name": "variable_workflow_01XW7HOLCUOCD4HDuOROoczOpBc76Z9hxIG",
-        "object_type": "variable_workflow"
-      },
-      {
         "schema_id": "datatype.secure_string",
         "properties": {
           "value": "*****",
@@ -36,20 +23,6 @@
         "schema_id": "datatype.secure_string",
         "properties": {
           "value": "",
-          "scope": "local",
-          "name": "Threat Response Access Token",
-          "type": "datatype.secure_string",
-          "description": "Placeholder for the Threat Response access token. This token will be fetched as needed throughout the workflow and this variable should not be modified",
-          "is_required": false,
-          "is_invisible": false
-        },
-        "unique_name": "variable_workflow_01XW0D6ZGZ4W41y5cJ9GJM0LYomYRKWWnL0",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.secure_string",
-        "properties": {
-          "value": "",
           "scope": "input",
           "name": "Webex Teams Access Token",
           "type": "datatype.secure_string",
@@ -58,34 +31,6 @@
           "is_invisible": false
         },
         "unique_name": "variable_workflow_01XW0D6ZGYY454v3JYYfKRwkNjnEFjRRv4q",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "[]",
-          "scope": "local",
-          "name": "Sightings",
-          "type": "datatype.string",
-          "description": "Placeholder for a list of sightings from your Threat Response modules. This will be populated automatically",
-          "is_required": false,
-          "is_invisible": false
-        },
-        "unique_name": "variable_workflow_01XW0D6ZGZBQB7CXcKlCaHgj3I47ULjPGky",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "local",
-          "name": "Webex Text",
-          "type": "datatype.string",
-          "description": "Placeholder for the text to send via Webex. This will be populated automatically",
-          "is_required": false,
-          "is_invisible": false
-        },
-        "unique_name": "variable_workflow_01XW0D6ZGY38S4yMXpwXJ9pnRB4hFJqCKM9",
         "object_type": "variable_workflow"
       },
       {
@@ -106,48 +51,6 @@
         "schema_id": "datatype.string",
         "properties": {
           "value": "",
-          "scope": "local",
-          "name": "Threat Response Environment URL",
-          "type": "datatype.string",
-          "description": "Placeholder for the URL of the Threat Response environment being used. You don't need to provide this, it will be fetched automatically",
-          "is_required": false,
-          "is_invisible": false
-        },
-        "unique_name": "variable_workflow_01XW0D6ZGYBHV4ueWutTVwmAR4g5LRM2RG4",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.integer",
-        "properties": {
-          "value": 0,
-          "scope": "local",
-          "name": "Number of Non-Clean Observables",
-          "type": "datatype.integer",
-          "description": "How many non-clean observables were found during the investigation (as in: unknown, suspicious, or malicious)",
-          "is_required": false,
-          "is_invisible": false
-        },
-        "unique_name": "variable_workflow_01XW0D6ZGZQ1Y49qJM3oRvdt4tyhmv2knYY",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "[]",
-          "scope": "local",
-          "name": "Non-Clean Observables",
-          "type": "datatype.string",
-          "description": "A JSON-formatted list of observables that have a disposition of unknown, suspicious, or malicious. This will be populated automatically",
-          "is_required": false,
-          "is_invisible": false
-        },
-        "unique_name": "variable_workflow_01XW0D6ZGZXEX339RjbYx1BCm1JmAKLTz8V",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
           "scope": "input",
           "name": "Webex Teams Room Name",
           "type": "datatype.string",
@@ -161,29 +64,28 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "[]",
+          "value": "Y2lzY29zcGFyazovL3VybjpURUFNOmV1LWNlbnRyYWwtMV9rL1RFQU0vMmE3NmNjYzAtZWVkYi0xMWVjLTkzM2UtMGQwOTFmOTBmNGJj",
           "scope": "local",
-          "name": "Targets",
+          "name": "Team id",
           "type": "datatype.string",
-          "description": "Placeholder for a list of targets from your Threat Response module sightings. This will be populated automatically",
           "is_required": false,
           "is_invisible": false
         },
-        "unique_name": "variable_workflow_01XW0D6ZGYJGO3w85azocvgGxXNUx4hzelG",
+        "unique_name": "variable_workflow_01XW7HOLCUOCD4HDuOROoczOpBc76Z9hxIG",
         "object_type": "variable_workflow"
       },
       {
-        "schema_id": "datatype.date",
+        "schema_id": "datatype.string",
         "properties": {
-          "value": "0001-01-01T00:00:00+00:00",
+          "value": "",
           "scope": "local",
-          "name": "Threat Response Token Time",
-          "type": "datatype.date",
-          "description": "The time at which the Threat Response access token was last fetched. This is used to determine when it's time to fetch a new token and should not be modified",
+          "name": "Webex Text",
+          "type": "datatype.string",
+          "description": "Placeholder for the text to send via Webex. This will be populated automatically",
           "is_required": false,
           "is_invisible": false
         },
-        "unique_name": "variable_workflow_01XW0D6ZGZIJA7KAgBdMU19JjDAeDATsg4N",
+        "unique_name": "variable_workflow_01XW0D6ZGY38S4yMXpwXJ9pnRB4hFJqCKM9",
         "object_type": "variable_workflow"
       }
     ],
@@ -372,30 +274,17 @@
         "object_type": "definition_activity",
         "actions": [
           {
-            "unique_name": "definition_activity_01XWC7QUYOQQC0SfuxMR4VrTHYfH7mTEMLK",
-            "name": "HTTP Request",
-            "title": "HTTP Request",
-            "type": "web-service.http_request",
+            "unique_name": "definition_activity_01XWGFEI9D1IF5WE8EB0fPnkEevKdE8mKdg",
+            "name": "Execute Python Script",
+            "title": "Python Script ChatOps",
+            "type": "python3.script",
             "base_type": "activity",
             "properties": {
-              "accept": "application/json",
               "action_timeout": 180,
-              "allow_auto_redirect": true,
-              "allow_headers_redirect": false,
-              "content_type": "application/json",
-              "continue_on_error_status_code": false,
               "continue_on_failure": false,
-              "display_name": "HTTP Request",
-              "method": "POST",
-              "relative_url": "/webhooks/01XWC1G8VQL1G2RSUF9M1E17VJIRckPeycP?api_key=H450eiBZ0fOOCex6ze9/IP19h1AMHgGP/DUcRIkZ4M2XN/ngPpRsS8X9J/Xz1ZMC/nbCkkP9gsyjqL8sNorrQD4J3SlGSL30kWGm3+zGo31Krjl+b8k2gB87ym6rBSjZ7sPcLvZx5VsjIezwbtsqjTAwHHi9Vnc0UrHDv+XVLN0=",
-              "runtime_user": {
-                "target_default": true
-              },
-              "skip_execution": false,
-              "target": {
-                "override_workflow_target": true,
-                "target_id": "definition_target_01XWD598F65OP442lIIOeEoEXdrOWnbnCAn"
-              }
+              "display_name": "Python Script ChatOps",
+              "script": "import requests\nimport json\nimport datetime as dt\nimport sys\nimport os\nimport getopt\n\n\n# Simple Bot Function for passing messages to a room\ndef send_it($workflow.definition_workflow_01XW0D6Z7IEJH4xgrxVQ2GGRrNFhPjBOJ0x.local.variable_workflow_01XW2QQUA2XUA705xjTcmuP0Y0PxPZDMOCM$, $activity.definition_activity_01XW7DSO5P61D7db6dACFaUoPvJ812TaDI7.output.variable_workflow_01PP786GT3OV266pPw7geV5gE0bz5ul9Hce$, $activity.definition_activity_01XW0D7F8W4G41zN6Peza5ByrS73f3Eedw5.output.script_queries.htmlBlog$):\n\n        header = {\"Authorization\": \"Bearer %s\" % $workflow.definition_workflow_01XW0D6Z7IEJH4xgrxVQ2GGRrNFhPjBOJ0x.local.variable_workflow_01XW2QQUA2XUA705xjTcmuP0Y0PxPZDMOCM$,\n                  \"Content-Type\": \"application/json\"}\n\n        data = {\"roomId\": $activity.definition_activity_01XW7DSO5P61D7db6dACFaUoPvJ812TaDI7.output.variable_workflow_01PP786GT3OV266pPw7geV5gE0bz5ul9Hce$,\n                \"text\": $activity.definition_activity_01XW0D7F8W4G41zN6Peza5ByrS73f3Eedw5.output.script_queries.htmlBlog$}\n\n        return requests.post(\"https://webexapis.com/v1/messages/\", headers=header, data=json.dumps(data), verify=True)\n\n\nif __name__ == '__main__':\n\n        # Command line arguments parsing    \n        from argparse import ArgumentParser  \n        parser = ArgumentParser(\"chatops.py\")  \n        parser.add_argument(\"-m\", \"--message\", help=\"the message text to post to Webex Teams\", required=True)\n        parser.add_argument(\"-r\", \"--room_id\", help=\"the identifier of the room you added your bot to\", required=True)\n        parser.add_argument(\"-t\", \"--token\", help=\"[optional] your bot's access token. Alternatively, you can use the TEAMS_ACCESS_TOKEN env variable\", required=False)\n        args = parser.parse_args() \n        access_token = args.$workflow.definition_workflow_01XW0D6Z7IEJH4xgrxVQ2GGRrNFhPjBOJ0x.local.variable_workflow_01XW2QQUA2XUA705xjTcmuP0Y0PxPZDMOCM$\n        teams_room = args.$workflow.definition_workflow_01XW0D6Z7IEJH4xgrxVQ2GGRrNFhPjBOJ0x.local.variable_workflow_01XW2QQUA2XUA705xjTcmuP0Y0PxPZDMOCM$\n        message = args.$activity.definition_activity_01XW0D7F8W4G41zN6Peza5ByrS73f3Eedw5.output.script_queries.htmlBlog$\n\n        # Check access token\n        # teams_access_token = os.environ.get(\"TEAMS_ACCESS_TOKEN\")\n        token = access_token \n        if not token:\n            error_message = \"You must provide a Webex Teams API access token to \" \\\n                            \"interact with the Webex Teams APIs, either via \" \\\n                            \"a TEAMS_ACCESS_TOKEN environment variable \" \\\n                            \"or via the -t command line argument.\"\n            print(error_message)\n            sys.exit(2)\n\n        # Now let's post our message to Webex Teams\n        res = send_it($workflow.definition_workflow_01XW0D6Z7IEJH4xgrxVQ2GGRrNFhPjBOJ0x.local.variable_workflow_01XW2QQUA2XUA705xjTcmuP0Y0PxPZDMOCM$, $activity.definition_activity_01XW7DSO5P61D7db6dACFaUoPvJ812TaDI7.output.variable_workflow_01PP786GT3OV266pPw7geV5gE0bz5ul9Hce$, str(dt.datetime.now()) + \"\\n\" + $activity.definition_activity_01XW0D7F8W4G41zN6Peza5ByrS73f3Eedw5.output.script_queries.htmlBlog$)\n        if res.status_code == 200:\n                print(\"your message was successfully posted to Webex Teams\")\n        else:\n                print(\"failed with statusCode: %d\" % res.status_code)\n                if res.status_code == 404:\n                        print (\"please check the bot is in the room you're attempting to post to...\")\n                elif res.status_code == 400:\n                        print (\"please check the identifier of the room you're attempting to post to...\")\n                elif res.status_code == 401:\n                        print (\"please check if the access token is correct...\")",
+              "skip_execution": false
             },
             "object_type": "definition_activity"
           }
@@ -453,22 +342,6 @@
         "host": "webexapis.com",
         "no_runtime_user": true,
         "port": 443,
-        "protocol": "https"
-      }
-    },
-    "definition_target_01XWD598F65OP442lIIOeEoEXdrOWnbnCAn": {
-      "unique_name": "definition_target_01XWD598F65OP442lIIOeEoEXdrOWnbnCAn",
-      "name": "webhooks",
-      "title": "webhooks",
-      "type": "web-service.endpoint",
-      "base_type": "target",
-      "object_type": "definition_target",
-      "properties": {
-        "disable_certificate_validation": true,
-        "display_name": "webhooks",
-        "host": "securex-ao.us.security.cisco.com",
-        "ignore_proxy": true,
-        "no_runtime_user": true,
         "protocol": "https"
       }
     }
